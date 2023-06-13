@@ -400,6 +400,7 @@ header {
   color:#FFF;
   z-index:5;
   display: none;
+  visibility: hidden;
 }
 
 .Modern-Slider .NextArrow:before{content:'\f105';}
@@ -419,6 +420,7 @@ header {
   color:#FFF;
   z-index:5;
   display: none;
+  visibility: hidden;
 }
 
 .Modern-Slider .item .image {
