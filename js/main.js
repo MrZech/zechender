@@ -4,8 +4,8 @@ jQuery(document).ready(function($) {
 
 
         $(".Modern-Slider").slick({
-            autoplay:false,
-            speed:1000,
+            autoplay:true,
+            speed:5000,
             slidesToShow:0,
             slidesToScroll:0,
             pauseOnHover:false,
