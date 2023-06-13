@@ -967,42 +967,7 @@ header {
     padding: 0px 30px;
   }
 
-  .Modern-Slider .NextArrow{
-    outline: none;
-    display: none;
-    position:absolute;
-    top:120px;
-    right: 50%;
-    transform: translateX(50%);
-    margin-right: -30px;
-    width:50px;
-    height:50px;
-    background:rgba(0,0,0,.50);
-    border:0 none;
-    text-align:center;
-    font:32px/50px FontAwesome;
-    color:#FFF;
-    z-index:5;
-  }
-
-  .Modern-Slider .NextArrow:before{content:'\f105';}
-
-  .Modern-Slider .PrevArrow{
-    outline: none;
-    position:absolute;
-    top:120px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: -30px;
-    width:50px;
-    height:50px;
-    background:rgba(0,0,0,.50);
-    border:0 none;
-    text-align:center;
-    font:32px/50px FontAwesome;
-    color:#FFF;
-    z-index:5;
-  }
+  
 
   
 
