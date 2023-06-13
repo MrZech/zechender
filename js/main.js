@@ -4,12 +4,12 @@ jQuery(document).ready(function($) {
 
 
         $(".Modern-Slider").slick({
-            autoplay:true,
+            autoplay:false,
             speed:1000,
-            slidesToShow:1,
-            slidesToScroll:1,
+            slidesToShow:0,
+            slidesToScroll:0,
             pauseOnHover:false,
-            dots:true,
+            dots:false,
             fade: true,
             pauseOnDotsHover:true,
             cssEase:'linear',
