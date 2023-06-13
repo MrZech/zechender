@@ -5,12 +5,12 @@ jQuery(document).ready(function($) {
     $(window).load(function() {      //Do the code in the {}s when the window has loaded 
         $("#loader").fadeOut("fast");  //Fade out the #loader div
       });
-      
+
         $(".Modern-Slider").slick({
             autoplay:true,
             speed:3000,
-            slidesToShow:3,
-            slidesToScroll:3,
+            slidesToShow:1,
+            slidesToScroll:1,
             pauseOnHover:true,
             dots:false,
             fade: true,
