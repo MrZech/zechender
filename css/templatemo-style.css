@@ -10,6 +10,9 @@ https://templatemo.com/tm-518-sentra
   min-width:1000px; 
   height:auto; 
 }  
+.slick-arrow.slick-hidden {
+  display: none;
+}
 #loader{
 	position: fixed;
 	width: 100%;
