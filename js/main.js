@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
             responsive:{
                 0:{
                     items:1,
-                    nav:true
+                    nav:false
                 },
                 600:{
                     items:2,
@@ -62,7 +62,7 @@ jQuery(document).ready(function($) {
                 },
                 1000:{
                     items:3,
-                    nav:true,
+                    nav:false,
                     loop:false
                 }
             }
