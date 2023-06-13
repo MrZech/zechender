@@ -1,8 +1,11 @@
 jQuery(document).ready(function($) {
 
     'use strict';
-
-
+        
+    $(window).load(function() {      //Do the code in the {}s when the window has loaded 
+        $("#loader").fadeOut("fast");  //Fade out the #loader div
+      });
+      
         $(".Modern-Slider").slick({
             autoplay:true,
             speed:3000,
@@ -115,3 +118,4 @@ jQuery(document).ready(function($) {
 
 
 });
+
