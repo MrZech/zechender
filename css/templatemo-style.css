@@ -399,6 +399,7 @@ header {
   font:32px/50px FontAwesome;
   color:#FFF;
   z-index:5;
+  display: none;
 }
 
 .Modern-Slider .NextArrow:before{content:'\f105';}
@@ -417,6 +418,7 @@ header {
   font:32px/50px FontAwesome;
   color:#FFF;
   z-index:5;
+  display: none;
 }
 
 .Modern-Slider .item .image {
