@@ -5,9 +5,9 @@ jQuery(document).ready(function($) {
 
         $(".Modern-Slider").slick({
             autoplay:true,
-            speed:5000,
-            slidesToShow:1,
-            slidesToScroll:1,
+            speed:4000,
+            slidesToShow:3,
+            slidesToScroll:3,
             pauseOnHover:true,
             dots:false,
             fade: true,
