@@ -81,9 +81,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
-  .owl-carousel.owl-grab {
-    cursor: move;
-    cursor: grab; }
+  
   .owl-carousel.owl-rtl {
     direction: rtl; }
   .owl-carousel.owl-rtl .owl-item {
