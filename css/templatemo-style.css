@@ -5,6 +5,11 @@ Sentra Template
 https://templatemo.com/tm-518-sentra
 
 */
+.WebContainer{ 
+  width:100%; 
+  min-width:1000px; 
+  height:auto; 
+}  
 #loader{
 	position: fixed;
 	width: 100%;
