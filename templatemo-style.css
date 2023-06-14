@@ -214,7 +214,6 @@ header {
 }
 
 .sidebar-navigation .logo a {
-  font-size: 1vw;
   position: relative;
   text-decoration: none;
   color: #fff;
@@ -222,14 +221,14 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  height: 100px;
+  height: fit-content;
   width: 100%;
   display: inline-block;
   border: 1px solid rgba(250,250,250,0.5);
 }
 
 .sidebar-navigation .logo em {
-  font-size: 4vw;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 300;
 }
