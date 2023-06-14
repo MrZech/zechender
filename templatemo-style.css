@@ -938,19 +938,19 @@ header {
   }
 
   .sidebar-navigation .logo a {
-    font-size: 1.5em;
+    font-size: .5em;
   }
 
   .sidebar-navigation nav a {
-    font-size: 1.5em;
+    font-size: .5em;
   }
 
   .sidebar-navigation nav ul {
-    font-size: 1.5em;
+    font-size: .5em;
   }
 
   .sidebar-navigation .social-icons li a {
-    font-size: 1.5em;
+    font-size: .5em;
   }
 
 }
