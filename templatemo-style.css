@@ -938,20 +938,20 @@ header {
   }
 
   .sidebar-navigation .logo a {
-    font-size: calc(1rem + 1vw)
+    font-size: 16px;
   }
 
   .sidebar-navigation nav a {
     
-    font-size: calc(1rem + 1vw)
+    font-size: 16px;
   }
 
   .sidebar-navigation nav ul {
-    font-size: calc(1rem + 1vw)
+    font-size: 16px;
   }
 
   .sidebar-navigation .social-icons li a {
-    font-size: calc(1rem + 1vw)
+    font-size: 16px;
   }
 
 }
