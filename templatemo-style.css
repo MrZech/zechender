@@ -224,6 +224,7 @@ header {
 }
 
 .sidebar-navigation .logo em {
+  font-size: 4vw;
   font-style: normal;
   font-weight: 300;
 }
