@@ -10,6 +10,10 @@ https://templatemo.com/tm-518-sentra
   min-width:1000px; 
   height:auto; 
 }  
+
+body { font-size: 16px; }
+#em1, #em2 { font-size: 1.5em; }
+
 .slick-arrow.slick-hidden {
   display: none;
 }
@@ -210,21 +214,21 @@ header {
 }
 
 .sidebar-navigation .logo a {
-  font-size: 4vw;
+  position: relative;
   text-decoration: none;
   color: #fff;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  height: 100px;
+  height: fit-content;
   width: 100%;
   display: inline-block;
   border: 1px solid rgba(250,250,250,0.5);
 }
 
 .sidebar-navigation .logo em {
-  font-size: 4vw;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 300;
 }
@@ -934,19 +938,20 @@ header {
   }
 
   .sidebar-navigation .logo a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .sidebar-navigation nav a {
-    font-size: 13px;
+    
+    font-size: 16px;
   }
 
   .sidebar-navigation nav ul {
-    margin-left: 30px;
+    font-size: 16px;
   }
 
   .sidebar-navigation .social-icons li a {
-    font-size: 15px;
+    font-size: 16px;
   }
 
 }
@@ -1064,4 +1069,5 @@ header {
   }
 
 }
+
 
