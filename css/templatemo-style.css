@@ -452,7 +452,7 @@ header {
 
 
 .Modern-Slider .item .image {
-  animation: zoomin 12s ease-in-out infinite alternate;
+  animation: zoomin 12s ease-out infinite alternate;
   -webkit-animation: zoomin 12s ease-in-out infinite alternate;
 }
 
