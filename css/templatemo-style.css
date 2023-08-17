@@ -452,13 +452,13 @@ header {
 
 
 .Modern-Slider .item .image {
-  animation: zoomin 12s ease-out infinite alternate;
-  -webkit-animation: zoomin 12s ease-in-out infinite alternate;
+  animation: zoomin 10s ease-out;
+  -webkit-animation: zoomin 10s ease-in;
 }
 
 @keyframes zoomin {
     0% {-webkit-transform: scale(1);}
-    100% {-webkit-transform: scale(1.2);}
+    100% {-webkit-transform: scale(1.5);}
 }
 
 .Modern-Slider {background:transparent;}
