@@ -30,6 +30,10 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <link rel="stylesheet" href="templatemo-style.css">
+		<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js" defer></script>
+		<link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.1.1/dist/dayschedule-widget.min.css" rel="stylesheet">
+
+		
     </head>
     
     <div id="loader"></div>
@@ -52,7 +56,7 @@
                         <li><a href="#featured">Featured</a></li>
                         <li><a href="#projects">Recent Projects</a></li>
                         <li><a href="#video">Interview</a></li>
-                        <li><a href="#contact">Locations</a></li>
+                        <li><a href="#contact">Location</a></li>
                     </ul>
                 </nav>
             </div>
@@ -334,18 +338,35 @@
                         </div>
                     </div>
                 </div>
+				
             </section>
+			
             <section id="contact" class="content-section">
+				<div button type="button" class="accent-button button" onClick="daySchedule.initPopupWidget({ url: 'https://zechender.dayschedule.com/photography' });">
+					
+                            <a>Book Appointment</a>
+				
+					
+                        </div>
                 <div id="map">
                     <iframe src="https://www.google.com/maps/embed/v1/place?q=Bowling+Green,+KY,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
+				
+				
+				<dayschedule-widget
+					url="https://zechender.dayschedule.com/photography" options='{ "color": { "primary": "#000000", "secondary": "#942192", "hideHeader": "true" }}'>
+				</dayschedule-widget>
             </section>
             <section class="footer">
                 <p>Copyright &copy; 2023 Zecheneder Photography</p>
             </section>
         </div>
 
-        <script>
+	
+	
+    
+	
+	<script>
             var preloader = document.getElementById('loader');
             function preLoaderHandler(){
                 preloader.style.display = 'none';
